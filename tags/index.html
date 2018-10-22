@@ -341,10 +341,10 @@
         
           <div class="tag-cloud">
             <div class="tag-cloud-title">
-                目前共计 3 个标签
+                目前共计 14 个标签
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/PS3/" style="font-size: 12px; color: #ccc">PS3</a> <a href="/tags/tag1/" style="font-size: 12px; color: #ccc">tag1</a> <a href="/tags/tag2/" style="font-size: 12px; color: #ccc">tag2</a>
+              <a href="/tags/MarkDown/" style="font-size: 30px; color: #111">MarkDown</a> <a href="/tags/PS3/" style="font-size: 12px; color: #ccc">PS3</a> <a href="/tags/tag1/" style="font-size: 12px; color: #ccc">tag1</a> <a href="/tags/tag2/" style="font-size: 12px; color: #ccc">tag2</a> <a href="/tags/代码/" style="font-size: 12px; color: #ccc">代码</a> <a href="/tags/分割线/" style="font-size: 12px; color: #ccc">分割线</a> <a href="/tags/列表/" style="font-size: 12px; color: #ccc">列表</a> <a href="/tags/图片/" style="font-size: 12px; color: #ccc">图片</a> <a href="/tags/图片超链接/" style="font-size: 12px; color: #ccc">图片超链接</a> <a href="/tags/字体/" style="font-size: 12px; color: #ccc">字体</a> <a href="/tags/引用/" style="font-size: 12px; color: #ccc">引用</a> <a href="/tags/标题/" style="font-size: 12px; color: #ccc">标题</a> <a href="/tags/流程图/" style="font-size: 12px; color: #ccc">流程图</a> <a href="/tags/表格/" style="font-size: 12px; color: #ccc">表格</a>
             </div>
           </div>
         
@@ -418,7 +418,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -429,7 +429,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -440,7 +440,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -708,6 +708,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '4jRLaCnA8bj8NS0kFuIymVu8-gzGzoHsz',
+        appKey: 'SjjlkvyhQHLNLhLXCKAVNnpW',
+        placeholder: '有山、有雨、有你',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
