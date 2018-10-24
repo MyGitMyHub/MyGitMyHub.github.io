@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[大西瓜]]></title>
-    <url>%2F2018%2F10%2F22%2Fdaxigua%2F</url>
-    <content type="text"><![CDATA[你想看什么，进来啊！！！ 其实什么也没有！！]]></content>
+    <title><![CDATA[MarkDown语法标题]]></title>
+    <url>%2F2018%2F10%2F24%2FMarkDown%2F00%E4%BB%8B%E7%BB%8D%2F</url>
+    <content type="text"><![CDATA[markdown是一种纯文本格式的标记语言。通过简单的标记语法，可以使普通文本内容具有一定的格式。]]></content>
+      <categories>
+        <category>MarkDown</category>
+      </categories>
       <tags>
-        <tag>大西瓜</tag>
+        <tag>MarkDown</tag>
+        <tag>标题</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[MarkDown语法——流程图]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E6%B5%81%E7%A8%8B%E5%9B%BE%2F</url>
-    <content type="text"><![CDATA[12345678st=&gt;start: 开始op=&gt;operation: My Operationcond=&gt;condition: Yes or No?e=&gt;endst-&gt;op-&gt;condcond(yes)-&gt;econd(no)-&gt;op&amp;]]></content>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F10%E6%B5%81%E7%A8%8B%E5%9B%BE%2F</url>
+    <content type="text"><![CDATA[st=>start: Start|past:>http://www.google.com[blank] e=>end: End:>http://www.google.com op1=>operation: My Operation|past op2=>operation: Stuff|current sub1=>subroutine: My Subroutine|invalid cond=>condition: Yes or No?|approved:>http://www.google.com c2=>condition: Good idea|rejected io=>inputoutput: catch something...|request st->op1(right)->cond cond(yes, right)->c2 cond(no)->sub1(left)->op1 c2(yes)->io->e c2(no)->op2->e{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12} var code = document.getElementById("flowchart-0-code").value; var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value)); var diagram = flowchart.parse(code); diagram.drawSVG("flowchart-0", options);]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
@@ -22,8 +26,8 @@
   </entry>
   <entry>
     <title><![CDATA[MarkDown语法——代码]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E4%BB%A3%E7%A0%81%2F</url>
-    <content type="text"><![CDATA[单行代码这是单行代码 Hello World 代码块12345 MacGesture2-Publish├── apppicker.jpg├── logo.jpg└── rules.jpgMacGesture2-Publish.md]]></content>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F09%E4%BB%A3%E7%A0%81%2F</url>
+    <content type="text"><![CDATA[单行代码语法将代码包涵于 ` `之间 示例`这是单行代码 Hello World;` 效果这是单行代码 Hello World; 代码块语法代码之间分别用三个反引号包起来，且两边反引号单独占一行 示例\1234function()&#123; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; console.log(&quot;OKKK啊！！&quot;); &#125; \ 效果123function()&#123; console.log(&quot;OKKK啊！！&quot;); &#125;]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
@@ -33,9 +37,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[MarkDown语法——超链接]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E8%A1%A8%E6%A0%BC%2F</url>
-    <content type="text"><![CDATA[姓名 技能 排行 张三 宝刀 老一 李四 大刀 老二 王五 菜刀 老末]]></content>
+    <title><![CDATA[MarkDown语法——表格]]></title>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F08%E8%A1%A8%E6%A0%BC%2F</url>
+    <content type="text"><![CDATA[语法 第一行为表头，第二行分隔表头与表内容，第三行及以后为表内容。 列与列之间用‘|’隔开。 第二行指定对齐方式，默认为左对齐，在‘-’右边加上’:’为右对齐 示例12345姓名|技能|排行---|:--:|---:张三|宝刀|老一李四|大刀|老二王五|菜刀|老末 效果 姓名 技能 排行 张三 宝刀 老一 李四 大刀 老二 王五 菜刀 老末]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
@@ -45,9 +49,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[MarkDown语法——超链接]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E5%88%97%E8%A1%A8%2F</url>
-    <content type="text"><![CDATA[无序列表 列表内容- 列表内容- 列表内容+ 列表内容+ 列表内容* 列表内容* 有序列表 列表内容1 列表内容2 列表内容3 列表嵌套 一级无序列表内容 二级无序列表内容 二级无序列表内容 二级无序列表内容 一级无序列表内容 二级有序列表内容 二级有序列表内容 二级有序列表内容 一级有序列表内容 二级无序列表内容 二级无序列表内容 一级有序列表内容 二级有序列表内容 二级有序列表内容]]></content>
+    <title><![CDATA[MarkDown语法——列表]]></title>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F07%E5%88%97%E8%A1%A8%2F</url>
+    <content type="text"><![CDATA[无序列表语法无序列表可以用-,+,= 示例：123456- 列表内容-- 列表内容-+ 列表内容++ 列表内容+* 列表内容** 列表内容* 效果： 列表内容- 列表内容- 列表内容+ 列表内容+ 列表内容* 列表内容* 有序列表语法：数字加点 示例：1231. 列表内容12. 列表内容23. 列表内容3 效果： 列表内容1 列表内容2 列表内容3 列表嵌套:语法：上一级和下一级空三个空格 示例：12345678910111213141516- 一级无序列表内容 - 二级无序列表内容 - 二级无序列表内容 - 二级无序列表内容- 一级无序列表内容 1. 二级有序列表内容 2. 二级有序列表内容 3. 二级有序列表内容1. 一级有序列表内容 - 二级无序列表内容 - 二级无序列表内容2. 一级有序列表内容 1. 二级有序列表内容 2. 二级有序列表内容 效果： 一级无序列表内容 二级无序列表内容 二级无序列表内容 二级无序列表内容 一级无序列表内容 二级有序列表内容 二级有序列表内容 二级有序列表内容 一级有序列表内容 二级无序列表内容 二级无序列表内容 一级有序列表内容 二级有序列表内容 二级有序列表内容]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
@@ -58,20 +62,20 @@
   </entry>
   <entry>
     <title><![CDATA[MarkDown语法——超链接]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E8%B6%85%E9%93%BE%E6%8E%A5%2F</url>
-    <content type="text"><![CDATA[谷歌百度 an example]]></content>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F06%E8%B6%85%E9%93%BE%E6%8E%A5%2F</url>
+    <content type="text"><![CDATA[超链接格式其实与图片的格式差不多 语法[超链接名](超链接地址 &quot;超链接title&quot;)title 可以不加 示例12[谷歌](http://www.google.cn/ &quot;谷歌&quot;)[百度](http://www.baidu.com/ &quot;百度&quot;) 谷歌百度]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
       <tags>
         <tag>MarkDown</tag>
-        <tag>图片超链接</tag>
+        <tag>超链接</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[MarkDown语法——图片]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E5%9B%BE%E7%89%87%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F05%E5%9B%BE%E7%89%87%2F</url>
+    <content type="text"><![CDATA[语法![图片alt](图片地址 &quot;图片title&quot;) 图片alt：图片下面的文字，相当于对文字的解释。屁的我试了没有用，显示的是图片title。图片的titile:图片的标题，当鼠标移动时图片时显示内容。title可以不加。 示例![无处安放](TIM图片20180824154454.jpg &quot;愿安好！！&quot;) 效果 题外话解决如果无法显示图片： 把主体配置文件_config.yml里的 post_asset_folder: false改为true。 在hexo目录下执行npm install hexo-asset-image --save，安装这个插件。]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
@@ -82,8 +86,8 @@
   </entry>
   <entry>
     <title><![CDATA[MarkDown语法——分割线]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E5%88%86%E5%89%B2%E7%BA%BF%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F04%E5%88%86%E5%89%B2%E7%BA%BF%2F</url>
+    <content type="text"><![CDATA[分割线有两个实现方式：1、三个或者三个以上 -三个- --- 三个以上- ---- 2、三个或者三个以上 *三个* *** 三个以上* ****]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
@@ -94,8 +98,8 @@
   </entry>
   <entry>
     <title><![CDATA[MarkDown语法——引用]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E5%BC%95%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[这是引用的内容 这是引用的内容 这是引用的内容]]></content>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F03%E5%BC%95%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[在引用的文字前加&gt; 就可以了如： 123&gt; 这是引用的内容&gt; &gt; 这是引用的内容&gt; &gt; &gt; &gt; &gt; &gt; &gt; 这是引用的内容 这是引用的内容 这是引用的内容 这是引用的内容]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
@@ -106,8 +110,8 @@
   </entry>
   <entry>
     <title><![CDATA[MarkDown语法——字体]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E5%AD%97%E4%BD%93%2F</url>
-    <content type="text"><![CDATA[这是加粗的文字 这是倾斜的文字 这是倾斜加粗的文字 这是要加删除线的文字]]></content>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F02%E5%AD%97%E4%BD%93%2F</url>
+    <content type="text"><![CDATA[加粗将要加粗的文字分别用两个**包起来就可了 快捷键 ctrl + B, 如： **这是加粗的文字**这是加粗的文字 加斜线将要加斜线的文字分别用两个*包起来就可了 快捷键 ctrl + I, 如： *这是倾斜的文字*这是倾斜的文字 既加粗又加斜线这面是既加粗又加斜线的用三个*包括起来 ***这是倾斜加粗的文字***这是倾斜加粗的文字 加删除线加删除线的用两个~~包括起来 ~~这是要加删除线的文字~~这是要加删除线的文字]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
@@ -117,48 +121,15 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[MarkDown语法标题]]></title>
-    <url>%2F2018%2F10%2F22%2FMarkDown%2F%E6%A0%87%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[这是一级标题 这是二级标题这是三级标题这是四级标题这是五级标题这是六级标题]]></content>
+    <title><![CDATA[MarkDown语法——标题]]></title>
+    <url>%2F2018%2F10%2F22%2FMarkDown%2F01%E6%A0%87%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[在想要设置为标题的文字前面加#来表示，一个#代表一级标题，如： # 这是一级标题 这是一级标题 ## 这是二级标题 这是二级标题 ### 这是三级标题 这是三级标题 #### 这是四级标题 这是四级标题 ##### 这是五级标题 这是五级标题 ###### 这是六级标题 这是六级标题]]></content>
       <categories>
         <category>MarkDown</category>
       </categories>
       <tags>
         <tag>MarkDown</tag>
         <tag>标题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[myPageTile]]></title>
-    <url>%2F2018%2F10%2F11%2FmyPageTile%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
-    <title><![CDATA[myTitle]]></title>
-    <url>%2F2018%2F10%2F11%2FmyTitle%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
-    <title><![CDATA[我的文章标题]]></title>
-    <url>%2F2018%2F10%2F11%2F%E6%88%91%E7%9A%84%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>xxx</category>
-      </categories>
-      <tags>
-        <tag>tag1</tag>
-        <tag>tag2</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[hehe]]></title>
-    <url>%2F2016%2F09%2F02%2Ftest%2F</url>
-    <content type="text"><![CDATA[听说这里是文章摘要！！ 测试博客 Hexo-用自己的页面做首页 - 陈续缘的blog - CSDN博客2016年10月27日 - Demo见:https://jacklightchen.github.io/ 然后具体步骤请见: https://jacklightchen.github.io/blog/2016/10/27/Hexo-用自己的页面做首页/https://blog.csdn.net/czh19963... - 百度快照Hexo主题设置 - 简书2017年3月27日 - 主菜单设置 按下面格式添加边栏菜单,菜单前的 # 表示注释掉该行,即隐藏掉该条目…前往hexo的主题预览页面 Hexo/themes,然后便可以看到不同的主题的预…https://www.jianshu.com/p/c285... - 百度快照Hexo自定义页面做首页 - 简书2017年4月1日 - 前言 如果你想了解如何在 GitHub Pages上传自己写的网页作为首页,hexo博客作为其子页?即自己写的页面作为http://user.github.io的页面,将hexo博客放在...https://www.jianshu.com/p/80e0... - 百度快照Hexo个人免费博客(二) 创建主界面分页签和新博客 - CSDN博客2016年9月3日 - 生成指定名称postName的文章到hexo\source_posts\postName.md,当然也可以直接到hexo\source_posts目录下,手动创建一个文件,命名时注意后缀名必须是“…https://blog.csdn.net/linshuhe... - 百度快照Hexo 入门指南(四) - 页面、导航、边栏、底栏 - CSDN博客2014年11月1日 - 页面命令行键入: $ hexo new page about 会在source/about中生成index.html。这个就叫做页面,不在文章列表显示,可以通过http://localhost/about浏览。...https://blog.csdn.net/wizardfo... - 百度快照使用Hexo搭建博客(三),博客配置、主题和写作 - 简书2015年8月27日 - 比如我的资源共享页面,就是输入下面命令,新建一个页面,在里添加内容即可。其他的关于和tools也是一样的做法。 hexo new page “share” 导航栏里的文件…https://www.jianshu.com/p/db7e... - 百度快照Hexo自定义页面的方法 - CSDN博客2017年10月18日 - Hexo是静态页博客生成利器,同很多博主一样,前端路上原创技术博客也是使用Hexo生成并托管在Github Page上的,但在使用Hexo的过程中遇到一个小问题,Hexo…https://blog.csdn.net/refined_... - 百度快照Hexo 个人博客的主页面消失了? - V2EX2017年6月14日 - 这个方法我试过了…加上早上我用了 LeanCloud 统计阅读数,不知道哪块错了,hexo d 之后出现了很多的 404,F12 显示是样式文件没有生效,hexo s 本地是正…https://www.v2ex.com/t/368... - 百度快照hexo怎么在菜单上添加页面和分类呢? - SegmentFault 思否2014年7月27日 - Hexo默认不生成About页面,有需要的话自己创建一个叫about的page然后再添加菜单项。 评论· 5 赞赏 编辑 zodiacg 1.8k 2014-07-27 回答 1 回复YuanWi…https://segmentfault.com/q/101... - 百度快照Hexo的Next主题配置 - syd192 - 博客园2018年9月1日 - 前面通过修改next主题下的_config.yml文件中的menu选项,可以在主页面的菜单栏…— title: 基于Hexo和Github搭建博客 date: 2016-11-09 tags: [npm, …https://www.cnblogs.com/syd192... - 百度快照相关搜索]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-      <tags>
-        <tag>PS3</tag>
       </tags>
   </entry>
 </search>
